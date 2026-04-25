@@ -11,49 +11,19 @@
 - **Picture-in-Picture**: Supports web-native Picture-in-Picture for a floating timer even in the browser.
 - **Modern Aesthetics**: Dark mode by default with smooth animations and a premium glassmorphism feel.
 - **Audio Notifications**: Subtle audio cues to signal the end of a session.
-- **Fully Customizable**: Adjust session durations and sound settings to fit your workflow.
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- **Node.js** (v18 or later)
-- **Rust** (Optional: Only if you want to build the desktop app locally)
-
-### Installation
-
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-### Running Locally
-
-To run the web version in development mode:
-```bash
-npm run dev
-```
-
+- **Semi Customizable**: Adjust session durations and sound settings to fit your workflow.
+  
 ---
 
 ## Desktop Application (Tauri)
 
 WidgetDoro is designed to be packaged as a native desktop application. 
 
-### Local Development
-If you have Rust installed, you can run the desktop version locally:
-```bash
-npm run tauri dev
-```
+---
 
 ### Cloud Builds (GitHub Actions)
 This project is configured with **GitHub Actions**. You don't need to install heavy build tools locally to get the desktop app:
-1. Push your code to GitHub.
-2. Go to the **Actions** tab.
-3. Once the build finishes, download the `.exe` or `.msi` from the **Releases** section.
+- Download the `.exe` or `.msi` from the **Releases** section.
 
 ---
 
@@ -70,12 +40,16 @@ This project is configured with **GitHub Actions**. You don't need to install he
 ## Known Issues
 - The app is draggable only from its borders.
 
+---
+
 ## Future Improvements
 - Resizing of the window (Allow the app to have different states like a full view or just a small rectangular timer view).
 - Allowing for more than 60 minutes sessions.
 - Customizable UI
 
+---
 ## Notes
 
 I built this app for my own personal use and just shared it publicly in case it could be useful for others. Feel free to use and modify it as you wish.
 
+---
