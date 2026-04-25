@@ -67,6 +67,14 @@ This project is configured with **GitHub Actions**. You don't need to install he
 
 ---
 
+## Known Issues
+- The app is draggable only from its borders.
+
+## Future Improvements
+- Resizing of the window (Allow the app to have different states like a full view or just a small rectangular timer view).
+- Allowing for more than 60 minutes sessions.
+- Customizable UI
+
 ## Notes
 
 I built this app for my own personal use and just shared it publicly in case it could be useful for others. Feel free to use and modify it as you wish.
