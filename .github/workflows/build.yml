@@ -41,8 +41,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tagName: v__VERSION__
-          releaseName: 'WidgetDoro v__VERSION__'
+          tagName: app-v${{ github.run_number }}
+          releaseName: 'WidgetDoro v${{ github.run_number }}'
           releaseBody: 'See the assets below to download the latest version of WidgetDoro.'
           releaseDraft: true
           prerelease: false
