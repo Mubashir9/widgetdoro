@@ -9,6 +9,7 @@
     "core:default",
     "shell:default",
     "window-state:default",
-    "window:default"
+    "core:window:default",
+    "core:window:allow-close"
   ]
 }
