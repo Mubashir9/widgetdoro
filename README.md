@@ -1,21 +1,21 @@
 # 🍅 WidgetDoro
 
-**WidgetDoro** is a premium, lightweight Pomodoro timer designed to keep you focused. Built with React and powered by Tauri, it functions as both a sleek web application and a native desktop widget that stays out of your way while keeping you on track.
+**WidgetDoro** is a lightweight Pomodoro timer designed to keep you focused. Built with React and powered by Tauri, it functions as both a sleek web application and a native desktop widget that stays out of your way while keeping you on track.
 
 ---
 
-## ✨ Features
+## Features
 
-- **🎯 Focus Modes**: Seamlessly switch between Focus, Short Break, and Long Break sessions.
-- **🖥️ Desktop Widget**: A frameless, transparent, "always-on-top" desktop experience powered by Tauri.
-- **📦 Picture-in-Picture**: Supports web-native Picture-in-Picture for a floating timer even in the browser.
-- **🎨 Modern Aesthetics**: Dark mode by default with smooth animations and a premium glassmorphism feel.
-- **🔊 Audio Notifications**: Subtle audio cues to signal the end of a session.
-- **⚙️ Fully Customizable**: Adjust session durations and sound settings to fit your workflow.
+- **Focus Modes**: Seamlessly switch between Focus, Short Break, and Long Break sessions.
+- **Desktop Widget**: A frameless, transparent, "always-on-top" desktop experience powered by Tauri.
+- **Picture-in-Picture**: Supports web-native Picture-in-Picture for a floating timer even in the browser.
+- **Modern Aesthetics**: Dark mode by default with smooth animations and a premium glassmorphism feel.
+- **Audio Notifications**: Subtle audio cues to signal the end of a session.
+- **Fully Customizable**: Adjust session durations and sound settings to fit your workflow.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -39,7 +39,7 @@ npm run dev
 
 ---
 
-## 🖥️ Desktop Application (Tauri)
+## Desktop Application (Tauri)
 
 WidgetDoro is designed to be packaged as a native desktop application. 
 
@@ -57,7 +57,7 @@ This project is configured with **GitHub Actions**. You don't need to install he
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - [React](https://reactjs.org/) - Frontend Framework
 - [Vite](https://vitejs.dev/) - Build Tool
@@ -67,7 +67,7 @@ This project is configured with **GitHub Actions**. You don't need to install he
 
 ---
 
-## 👤 Author
+## Notes
 
-**Syed Mubashir Ahmed**  
-[smubashirahmed@hotmail.com](mailto:smubashirahmed@hotmail.com)
+I built this app for my own personal use and just shared it publicly in case it could be useful for others. Feel free to use and modify it as you wish.
+
