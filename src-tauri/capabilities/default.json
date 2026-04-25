@@ -11,6 +11,7 @@
     "window-state:default",
     "log:default",
     "core:window:default",
-    "core:window:allow-close"
+    "core:window:allow-close",
+    "core:window:allow-start-dragging"
   ]
 }

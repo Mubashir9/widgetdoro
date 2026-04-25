@@ -331,7 +331,7 @@ export default function App() {
 
   return (
     <div 
-      data-tauri-drag-region={isTauri ? "true" : undefined}
+      {...(isTauri ? { 'data-tauri-drag-region': true } : {})}
       className={`min-h-screen ${isTauri ? 'bg-transparent overflow-hidden' : 'bg-[#0A0A0B] p-4 sm:p-8'} text-white flex flex-col items-center justify-center font-sans select-none`}
     >
       {!pipWindow && !isTauri && (
