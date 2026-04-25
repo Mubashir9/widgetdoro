@@ -330,7 +330,10 @@ export default function App() {
   );
 
   return (
-    <div className={`min-h-screen ${isTauri ? 'bg-transparent' : 'bg-[#0A0A0B]'} text-white flex flex-col items-center justify-center p-4 sm:p-8 font-sans overflow-hidden select-none`}>
+    <div 
+      data-tauri-drag-region={isTauri ? "true" : undefined}
+      className={`min-h-screen ${isTauri ? 'bg-transparent overflow-hidden' : 'bg-[#0A0A0B] p-4 sm:p-8'} text-white flex flex-col items-center justify-center font-sans select-none`}
+    >
       {!pipWindow && !isTauri && (
         <div className="text-center mb-8 hidden sm:block">
           <h1 className="text-3xl font-black tracking-tighter text-white">Widget<span className="text-red-500">Doro</span></h1>
